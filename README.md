@@ -7,3 +7,4 @@
 - git add: add changes form working dir to staging area
 - git commit: changes from staging area to current branch
 - git config: set or get configuration
+- git log: looking at older commits
