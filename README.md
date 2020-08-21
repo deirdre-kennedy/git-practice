@@ -8,6 +8,8 @@
 - git commit: changes from staging area to current branch
 - git config: set or get configuration
 - git log: looking at older commits (show history) aka log
+- git show: show a single commit
+- git diff <branch-name/commit-name>: show the difference between commits, the working directory, and the staging area
 - git branch <branch-name>: creates new branch
 - git checkout <branch-name>: checkout branch (update HEAD and apply changes to working directory)
 - (shortcut): git checkout -b <branch-name>
