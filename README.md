@@ -32,6 +32,14 @@ Or use `git commit -m "<message>"`
 
 For more advice, see: https://chris.beams.io/posts/git-commit/
 
+## What's a branch?
+
+A branch is a reference to a commit. When HEAD points to a branch, we're "on" that branch. Making a commit on a branch, the branch is updated to refer to the new commit.
+
+## What's HEAD?
+
+HEAD is a reference to the "current branch" or sometimes a commit. Git commands like `status`, `log`, and `branch` use HEAD to refer to a different branch. 
+
 ## Merging
 
 Merging means to bring the changes from one branch into another.
