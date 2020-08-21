@@ -14,3 +14,7 @@
 ## Commit messages
 
 - uses vim
+
+## Merging
+
+- Merging is to bring changes from one branch into another
