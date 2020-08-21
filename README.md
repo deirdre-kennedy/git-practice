@@ -10,6 +10,9 @@
 - git log: looking at older commits (show history) aka log
 - git checkout: checkout branch (update HEAD and apply changes to working directory)
 - git merge: merge changes from different branches
+- git remote add <remote> <url>: add a new <remote> at <url>
+- git remote -v: list remote repos
+- git push -u <remote> <branch>: push <branch> to <remote>, and set default upstream for <branch>
 
 ## Commit messages
 
