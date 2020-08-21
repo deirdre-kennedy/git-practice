@@ -13,6 +13,7 @@
 - git remote add <remote> <url>: add a new <remote> at <url>
 - git remote -v: list remote repos
 - git push -u <remote> <branch>: push <branch> to <remote>, and set default upstream for <branch>
+- git fetch: fetch changes from remote repo
 
 ## Commit messages
 
