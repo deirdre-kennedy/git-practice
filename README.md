@@ -14,13 +14,31 @@
 - git remote -v: list remote repos
 - git push -u <remote> <branch>: push <branch> to <remote>, and set default upstream for <branch>
 - git fetch: fetch changes from remote repo
+- git push: fetch and then merge
 
 ## Commit messages
 
-- uses vim
+Default editor is vim (this can be changed)
+  - `i` to enter *insert* mode
+  - Type commit message
+  - `Esc` -> `:wq` -> `Enter` to write message and quit
+Or use `git commit -m "<message>"`
+
+- First line should be clear, accurate, and concise
+- Use proper spelling, grammar, and punctuation
+- Don't end with a `.`
+
+For more advice, see: https://chris.beams.io/posts/git-commit/
 
 ## Merging
 
-Merging is to bring changes from one branch into another
+Merging means to bring the changes from one branch into another.
 
-- A fast forward merge happens when the target branch was branched from the current one, and there are no new changes to the current branch since then.
+- A fast-forward merge happens when the target branch was branched from the current one, and there are no new changes to the current branch since then.
+- An Automatic merge happens when the two histories have diverged, but git is able to reconcile them into one set of changes. This creates a new commit on the current branch.
+
+## What's a remote?
+
+A remote repo is one hosted somewhere other than our local machine. We can add remotes with `git remote add`, and set up *tracking branches* to track differences between our local and remote repositories.
+
+We push to remotes with `git push`, and fetch from them with `git fetch`. We can also fetch and merge in one set with `git pull`.
