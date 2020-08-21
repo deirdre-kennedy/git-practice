@@ -11,6 +11,9 @@
 - git branch <branch-name>: creates new branch
 - git checkout <branch-name>: checkout branch (update HEAD and apply changes to working directory)
 - (shortcut): git checkout -b <branch-name>
+- git stash: stash changes from working directory
+- git stash list: list stashes
+- git stash pop: apply changes from stash to working directory
 - git merge: merge changes from different branches
 - git remote add <remote> <url>: add a new <remote> at <url>
 - git remote -v: list remote repos
